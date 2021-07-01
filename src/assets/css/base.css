@@ -1,0 +1,214 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldest,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+p:before,
+q:after {
+    content: ''
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.van-overlay {
+    background-color: rgba(0,0,0,.5)
+}
+
+.popup-main-btns {
+    position: fixed;
+    left: 50%;
+    margin-left: -2.77rem;
+    bottom: .8rem;
+    display: block;
+    width: 5.54rem;
+}
+
+/* .main-btns a {
+    display: block;
+    width: 2.2rem;
+    height: .72rem;
+    font-size: .26rem;
+    text-align: center;
+    line-height: .72rem;
+    background: linear-gradient(90deg, rgba(70, 181, 252, 1) 0%, rgba(16, 217, 242, 1) 100%);
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: .36rem;
+    color: #ffffff;
+} */
+
+.main-btns a:last-child {
+    background: linear-gradient(90deg, rgba(251, 65, 75, 1) 1%, rgba(255, 87, 95, 1) 100%);
+    box-shadow: 0px 4px 10px 0px rgba(178, 0, 21, 0.2);
+}
+
+.van-button--disabled {
+    border: none !important;
+    background: #D2D2D2 !important;
+    color: #fff !important;
+    opacity: 1;
+    box-shadow: none !important;
+}
+.van-popup {
+    overflow: visible;
+    border-radius: .1rem;
+}
+.van-popup.van-popup--bottom {
+    overflow: hidden;
+    border-radius: .2rem .2rem 0 0;
+}
+.van-popup.van-popup--top {
+    overflow: hidden;
+    border-radius: 0;
+}
+.van-popup__close-icon {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    font-size: .32rem;
+    cursor: pointer;
+    width: .44rem;
+    height: .44rem;
+    top: unset;
+    left: 50%;
+    bottom: -1.1rem;
+    transform: translate3d(-50%,-50%,0);
+    border: .03rem solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: .44rem;
+}
+.main-btn {
+    display: block;
+	width: 5.54rem;
+	height: 0.8rem;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.8rem;
+	background: #3296fa;
+	box-shadow: 0px 0.04rem 0.1rem 0px rgba(0, 0, 0, 0.2);
+	border-radius: 0.1rem;
+	color: #ffffff;
+	border: none;
+    margin: 0 auto;
+}
+
+.main-btn + .main-btn {
+    margin-top: .4rem;
+}
+
+.small-btn {
+    display: block;
+    width: 1.6rem;
+    height: .6rem;
+    text-align: center;
+    line-height: .6rem;
+    color: #FFFFFF;
+    border-radius: .3rem;
+    font-size: .24rem;
+    display: block;
+    background: #3296FA;
+    box-shadow: 0px .04rem .1rem 0px rgba(0, 0, 0, 0.2);
+    margin: .3rem auto 0;
+    border: none;
+}
