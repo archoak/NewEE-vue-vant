@@ -1,4 +1,4 @@
-# econtract-h5
+# NewEE
 
 ## Project setup
 ```
